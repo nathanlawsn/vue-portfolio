@@ -1,5 +1,5 @@
 {
-  "name": "vue-portfolio",
+  "name": "tailwind-vue",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,5 +11,9 @@
   "dependencies": {
     "nuxt": "^2.14.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^2.1.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3"
+  }
 }

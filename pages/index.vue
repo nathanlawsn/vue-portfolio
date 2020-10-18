@@ -1,29 +1,15 @@
 <template>
-  <div class="container">
+  <div class="container px-4 mx-auto">
+    <Navigation/>
     <div>
-      <Logo />
-      <h1 class="title">
-        vue-portfolio
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+      <h1 class="mb-8 text-2xl md:text-6xl leading-none">Nathan Lawson</h1>
+      <div class="lg:w-3/4">
+        <p>Alreet, I'm an experienced front-end developer and Drupal specialist, from Sunderland.</p>
+        <p>I'm currently Lead Front-End Developer at <a href="https://www.landdigital.agency/">Land Digital</a>.</p>
+        <p>I also established and organise <a href="https://sunderland.digital">Sunderland Digital</a> — one of the largest meetups for the digital and tech community in the North East.</p>
       </div>
     </div>
+    <Footer/>
   </div>
 </template>
 
@@ -31,43 +17,5 @@
 export default {}
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
+<style lang="scss">
 </style>

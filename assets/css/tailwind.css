@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+p {
+    @apply mb-4;
+}
+.nuxt-link-exact-active {
+    @apply font-bold;
+}

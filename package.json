@@ -9,6 +9,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "graphql": "^15.3.0",
+    "graphql-request": "^3.2.0",
     "nuxt": "^2.14.0"
   },
   "devDependencies": {

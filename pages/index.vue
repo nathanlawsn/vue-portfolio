@@ -7,15 +7,9 @@
         <p>Alreet, I'm an experienced front-end developer and Drupal specialist, from Sunderland.</p>
         <p>I'm currently Lead Front-End Developer at <a href="https://www.landdigital.agency/">Land Digital</a>.</p>
         <p>I also established and organise <a href="https://sunderland.digital">Sunderland Digital</a> — one of the largest meetups for the digital and tech community in the North East.</p>
+        <p>Follow me on <a href="https://twitter.com/nathanlawsn">Twitter</a> or connect with me on <a href="https://www.linkedin.com/in/nathanlawson/">LinkedIn</a>.</p>
       </div>
     </div>
     <Footer/>
   </div>
 </template>
-
-<script>
-export default {}
-</script>
-
-<style lang="scss">
-</style>

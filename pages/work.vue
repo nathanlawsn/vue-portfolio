@@ -2,8 +2,8 @@
   <div class="container px-4 mx-auto">
     <Navigation/>
       <h1 class="text-2xl md:text-6xl leading-none">Work</h1>
-      <div class="flex flex-wrap my-8">
-        <div v-for="project in projects" :key="project.id" class="lg:w-1/2 mb-8 md:mb-16">
+      <div class="grid-cols-2 gap-8 my-8 | lg:grid lg:gap-16">
+        <div v-for="project in projects" :key="project.id">
           <h2 class="font-semibold mb-4">{{ project.projectName }}</h2>
           <p>{{ project.projectDescription }}</p>
           <div class="flex items-center mt-4">
